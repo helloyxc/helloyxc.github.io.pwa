@@ -1,0 +1,52 @@
+.icon-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #241E31;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.icon-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #141414;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.icon-section.middle {
+  flex-direction: row;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: 0px 0;
+}
+
+.icon-section.middle .icon-item {
+  margin: 0 10px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.icon-image {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.icon-text {
+  font-size: 14px;
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+pwa-project
+├── src
+│   ├── index.html
+│   ├── js
+│   │   ├── app.js
+│   │   └── service-worker.js
+│   ├── css
+│   │   └── styles.css
+│   └── manifest.json
+├── package.json
+└── README.md
